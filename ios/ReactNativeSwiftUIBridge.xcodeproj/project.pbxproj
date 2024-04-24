@@ -9,6 +9,48 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* ReactNativeSwiftUIBridgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeSwiftUIBridgeTests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-ReactNativeSwiftUIBridge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ReactNativeSwiftUIBridge.a */; };
+		11C079E42BC00FB3006C4739 /* SimpleViewSWUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C079E32BC00FB3006C4739 /* SimpleViewSWUI.swift */; };
+		11C079E62BC021BA006C4739 /* SimpleViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C079E52BC021BA006C4739 /* SimpleViewManager.m */; };
+		11C079E82BC02EF6006C4739 /* SimpleViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C079E72BC02EF6006C4739 /* SimpleViewManager.swift */; };
+		11C079EC2BC13536006C4739 /* SimpleViewProxy.view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C079EB2BC13536006C4739 /* SimpleViewProxy.view.swift */; };
+		11C07A1A2BC15598006C4739 /* ShotFileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C079F02BC15598006C4739 /* ShotFileInfo.swift */; };
+		11C07A1B2BC15598006C4739 /* TimedMessageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C079F12BC15598006C4739 /* TimedMessageList.swift */; };
+		11C07A1C2BC15598006C4739 /* FeedbackMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C079F22BC15598006C4739 /* FeedbackMessages.swift */; };
+		11C07A1D2BC15598006C4739 /* GuidedCaptureSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C079F32BC15598006C4739 /* GuidedCaptureSampleApp.swift */; };
+		11C07A1E2BC15598006C4739 /* TutorialVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C079F42BC15598006C4739 /* TutorialVideoView.swift */; };
+		11C07A1F2BC15598006C4739 /* OnboardingStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C079F52BC15598006C4739 /* OnboardingStateMachine.swift */; };
+		11C07A202BC15598006C4739 /* OnboardingTutorialView+LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C079F62BC15598006C4739 /* OnboardingTutorialView+LocalizedString.swift */; };
+		11C07A212BC15598006C4739 /* AppDataModel+Orbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C079F72BC15598006C4739 /* AppDataModel+Orbit.swift */; };
+		11C07A222BC15598006C4739 /* OnboardingButtonView+LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C079F82BC15598006C4739 /* OnboardingButtonView+LocalizedString.swift */; };
+		11C07A232BC15598006C4739 /* HelpPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C079F92BC15598006C4739 /* HelpPageView.swift */; };
+		11C07A242BC15598006C4739 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C079FA2BC15598006C4739 /* ProgressBarView.swift */; };
+		11C07A252BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-unflippable-low.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11C079FC2BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-unflippable-low.mp4 */; };
+		11C07A262BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11C079FD2BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-1.mp4 */; };
+		11C07A272BC15598006C4739 /* ScanPasses-iPad-FixedHeight-unflippable-high.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11C079FE2BC15598006C4739 /* ScanPasses-iPad-FixedHeight-unflippable-high.mp4 */; };
+		11C07A282BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11C079FF2BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-2.mp4 */; };
+		11C07A292BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11C07A002BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-3.mp4 */; };
+		11C07A2A2BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-unflippable-high.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11C07A012BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-unflippable-high.mp4 */; };
+		11C07A2B2BC15598006C4739 /* ScanPasses-iPad-FixedHeight-2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11C07A022BC15598006C4739 /* ScanPasses-iPad-FixedHeight-2.mp4 */; };
+		11C07A2C2BC15598006C4739 /* ScanPasses-iPad-FixedHeight-3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11C07A032BC15598006C4739 /* ScanPasses-iPad-FixedHeight-3.mp4 */; };
+		11C07A2D2BC15598006C4739 /* ScanPasses-iPad-FixedHeight-1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11C07A042BC15598006C4739 /* ScanPasses-iPad-FixedHeight-1.mp4 */; };
+		11C07A2E2BC15598006C4739 /* ScanPasses-iPad-FixedHeight-unflippable-low.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11C07A052BC15598006C4739 /* ScanPasses-iPad-FixedHeight-unflippable-low.mp4 */; };
+		11C07A302BC15598006C4739 /* CaptureOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C07A072BC15598006C4739 /* CaptureOverlayView.swift */; };
+		11C07A312BC15598006C4739 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C07A092BC15598006C4739 /* Preview Assets.xcassets */; };
+		11C07A322BC15598006C4739 /* AppDataModel+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C07A0A2BC15598006C4739 /* AppDataModel+State.swift */; };
+		11C07A332BC15598006C4739 /* UntilProcessingCompleteFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C07A0B2BC15598006C4739 /* UntilProcessingCompleteFilter.swift */; };
+		11C07A342BC15598006C4739 /* OnboardingButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C07A0C2BC15598006C4739 /* OnboardingButtonView.swift */; };
+		11C07A352BC15598006C4739 /* CaptureOverlayView+LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C07A0D2BC15598006C4739 /* CaptureOverlayView+LocalizedString.swift */; };
+		11C07A362BC15598006C4739 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C07A0E2BC15598006C4739 /* PlayerView.swift */; };
+		11C07A372BC15598006C4739 /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C07A0F2BC15598006C4739 /* FeedbackView.swift */; };
+		11C07A382BC15598006C4739 /* ReconstructionPrimaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C07A102BC15598006C4739 /* ReconstructionPrimaryView.swift */; };
+		11C07A392BC15598006C4739 /* AppDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C07A112BC15598006C4739 /* AppDataModel.swift */; };
+		11C07A3A2BC15598006C4739 /* CaptureOverlayView+Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C07A122BC15598006C4739 /* CaptureOverlayView+Buttons.swift */; };
+		11C07A3B2BC15598006C4739 /* CapturePrimaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C07A132BC15598006C4739 /* CapturePrimaryView.swift */; };
+		11C07A3C2BC15598006C4739 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C07A142BC15598006C4739 /* OnboardingView.swift */; };
+		11C07A3D2BC15598006C4739 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C07A152BC15598006C4739 /* ContentView.swift */; };
+		11C07A3E2BC15598006C4739 /* CaptureFolderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C07A162BC15598006C4739 /* CaptureFolderManager.swift */; };
+		11C07A3F2BC15598006C4739 /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C07A172BC15598006C4739 /* ModelView.swift */; };
+		11C07A412BC15598006C4739 /* OnboardingTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C07A192BC15598006C4739 /* OnboardingTutorialView.swift */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -30,6 +72,49 @@
 		00E356EE1AD99517003FC87E /* ReactNativeSwiftUIBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeSwiftUIBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ReactNativeSwiftUIBridgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeSwiftUIBridgeTests.m; sourceTree = "<group>"; };
+		11C079E22BC00FB3006C4739 /* ReactNativeSwiftUIBridge-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactNativeSwiftUIBridge-Bridging-Header.h"; sourceTree = "<group>"; };
+		11C079E32BC00FB3006C4739 /* SimpleViewSWUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewSWUI.swift; sourceTree = "<group>"; };
+		11C079E52BC021BA006C4739 /* SimpleViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleViewManager.m; sourceTree = "<group>"; };
+		11C079E72BC02EF6006C4739 /* SimpleViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewManager.swift; sourceTree = "<group>"; };
+		11C079EB2BC13536006C4739 /* SimpleViewProxy.view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewProxy.view.swift; sourceTree = "<group>"; };
+		11C079F02BC15598006C4739 /* ShotFileInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShotFileInfo.swift; sourceTree = "<group>"; };
+		11C079F12BC15598006C4739 /* TimedMessageList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimedMessageList.swift; sourceTree = "<group>"; };
+		11C079F22BC15598006C4739 /* FeedbackMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackMessages.swift; sourceTree = "<group>"; };
+		11C079F32BC15598006C4739 /* GuidedCaptureSampleApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuidedCaptureSampleApp.swift; sourceTree = "<group>"; };
+		11C079F42BC15598006C4739 /* TutorialVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialVideoView.swift; sourceTree = "<group>"; };
+		11C079F52BC15598006C4739 /* OnboardingStateMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingStateMachine.swift; sourceTree = "<group>"; };
+		11C079F62BC15598006C4739 /* OnboardingTutorialView+LocalizedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OnboardingTutorialView+LocalizedString.swift"; sourceTree = "<group>"; };
+		11C079F72BC15598006C4739 /* AppDataModel+Orbit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDataModel+Orbit.swift"; sourceTree = "<group>"; };
+		11C079F82BC15598006C4739 /* OnboardingButtonView+LocalizedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OnboardingButtonView+LocalizedString.swift"; sourceTree = "<group>"; };
+		11C079F92BC15598006C4739 /* HelpPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpPageView.swift; sourceTree = "<group>"; };
+		11C079FA2BC15598006C4739 /* ProgressBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		11C079FC2BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-unflippable-low.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ScanPasses-iPhone-FixedHeight-unflippable-low.mp4"; sourceTree = "<group>"; };
+		11C079FD2BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ScanPasses-iPhone-FixedHeight-1.mp4"; sourceTree = "<group>"; };
+		11C079FE2BC15598006C4739 /* ScanPasses-iPad-FixedHeight-unflippable-high.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ScanPasses-iPad-FixedHeight-unflippable-high.mp4"; sourceTree = "<group>"; };
+		11C079FF2BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ScanPasses-iPhone-FixedHeight-2.mp4"; sourceTree = "<group>"; };
+		11C07A002BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ScanPasses-iPhone-FixedHeight-3.mp4"; sourceTree = "<group>"; };
+		11C07A012BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-unflippable-high.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ScanPasses-iPhone-FixedHeight-unflippable-high.mp4"; sourceTree = "<group>"; };
+		11C07A022BC15598006C4739 /* ScanPasses-iPad-FixedHeight-2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ScanPasses-iPad-FixedHeight-2.mp4"; sourceTree = "<group>"; };
+		11C07A032BC15598006C4739 /* ScanPasses-iPad-FixedHeight-3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ScanPasses-iPad-FixedHeight-3.mp4"; sourceTree = "<group>"; };
+		11C07A042BC15598006C4739 /* ScanPasses-iPad-FixedHeight-1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ScanPasses-iPad-FixedHeight-1.mp4"; sourceTree = "<group>"; };
+		11C07A052BC15598006C4739 /* ScanPasses-iPad-FixedHeight-unflippable-low.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ScanPasses-iPad-FixedHeight-unflippable-low.mp4"; sourceTree = "<group>"; };
+		11C07A072BC15598006C4739 /* CaptureOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureOverlayView.swift; sourceTree = "<group>"; };
+		11C07A092BC15598006C4739 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11C07A0A2BC15598006C4739 /* AppDataModel+State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDataModel+State.swift"; sourceTree = "<group>"; };
+		11C07A0B2BC15598006C4739 /* UntilProcessingCompleteFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UntilProcessingCompleteFilter.swift; sourceTree = "<group>"; };
+		11C07A0C2BC15598006C4739 /* OnboardingButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingButtonView.swift; sourceTree = "<group>"; };
+		11C07A0D2BC15598006C4739 /* CaptureOverlayView+LocalizedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CaptureOverlayView+LocalizedString.swift"; sourceTree = "<group>"; };
+		11C07A0E2BC15598006C4739 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		11C07A0F2BC15598006C4739 /* FeedbackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		11C07A102BC15598006C4739 /* ReconstructionPrimaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReconstructionPrimaryView.swift; sourceTree = "<group>"; };
+		11C07A112BC15598006C4739 /* AppDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDataModel.swift; sourceTree = "<group>"; };
+		11C07A122BC15598006C4739 /* CaptureOverlayView+Buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CaptureOverlayView+Buttons.swift"; sourceTree = "<group>"; };
+		11C07A132BC15598006C4739 /* CapturePrimaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapturePrimaryView.swift; sourceTree = "<group>"; };
+		11C07A142BC15598006C4739 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		11C07A152BC15598006C4739 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		11C07A162BC15598006C4739 /* CaptureFolderManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureFolderManager.swift; sourceTree = "<group>"; };
+		11C07A172BC15598006C4739 /* ModelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
+		11C07A192BC15598006C4739 /* OnboardingTutorialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingTutorialView.swift; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ReactNativeSwiftUIBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeSwiftUIBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReactNativeSwiftUIBridge/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ReactNativeSwiftUIBridge/AppDelegate.mm; sourceTree = "<group>"; };
@@ -83,6 +168,67 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		11C079EF2BC15598006C4739 /* GuidedCapture */ = {
+			isa = PBXGroup;
+			children = (
+				11C079F02BC15598006C4739 /* ShotFileInfo.swift */,
+				11C079F12BC15598006C4739 /* TimedMessageList.swift */,
+				11C079F22BC15598006C4739 /* FeedbackMessages.swift */,
+				11C079F32BC15598006C4739 /* GuidedCaptureSampleApp.swift */,
+				11C079F42BC15598006C4739 /* TutorialVideoView.swift */,
+				11C079F52BC15598006C4739 /* OnboardingStateMachine.swift */,
+				11C079F62BC15598006C4739 /* OnboardingTutorialView+LocalizedString.swift */,
+				11C079F72BC15598006C4739 /* AppDataModel+Orbit.swift */,
+				11C079F82BC15598006C4739 /* OnboardingButtonView+LocalizedString.swift */,
+				11C079F92BC15598006C4739 /* HelpPageView.swift */,
+				11C079FA2BC15598006C4739 /* ProgressBarView.swift */,
+				11C079FB2BC15598006C4739 /* Resources */,
+				11C07A072BC15598006C4739 /* CaptureOverlayView.swift */,
+				11C07A082BC15598006C4739 /* Preview Content */,
+				11C07A0A2BC15598006C4739 /* AppDataModel+State.swift */,
+				11C07A0B2BC15598006C4739 /* UntilProcessingCompleteFilter.swift */,
+				11C07A0C2BC15598006C4739 /* OnboardingButtonView.swift */,
+				11C07A0D2BC15598006C4739 /* CaptureOverlayView+LocalizedString.swift */,
+				11C07A0E2BC15598006C4739 /* PlayerView.swift */,
+				11C07A0F2BC15598006C4739 /* FeedbackView.swift */,
+				11C07A102BC15598006C4739 /* ReconstructionPrimaryView.swift */,
+				11C07A112BC15598006C4739 /* AppDataModel.swift */,
+				11C07A122BC15598006C4739 /* CaptureOverlayView+Buttons.swift */,
+				11C07A132BC15598006C4739 /* CapturePrimaryView.swift */,
+				11C07A142BC15598006C4739 /* OnboardingView.swift */,
+				11C07A152BC15598006C4739 /* ContentView.swift */,
+				11C07A162BC15598006C4739 /* CaptureFolderManager.swift */,
+				11C07A172BC15598006C4739 /* ModelView.swift */,
+				11C07A192BC15598006C4739 /* OnboardingTutorialView.swift */,
+			);
+			path = GuidedCapture;
+			sourceTree = "<group>";
+		};
+		11C079FB2BC15598006C4739 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11C079FC2BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-unflippable-low.mp4 */,
+				11C079FD2BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-1.mp4 */,
+				11C079FE2BC15598006C4739 /* ScanPasses-iPad-FixedHeight-unflippable-high.mp4 */,
+				11C079FF2BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-2.mp4 */,
+				11C07A002BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-3.mp4 */,
+				11C07A012BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-unflippable-high.mp4 */,
+				11C07A022BC15598006C4739 /* ScanPasses-iPad-FixedHeight-2.mp4 */,
+				11C07A032BC15598006C4739 /* ScanPasses-iPad-FixedHeight-3.mp4 */,
+				11C07A042BC15598006C4739 /* ScanPasses-iPad-FixedHeight-1.mp4 */,
+				11C07A052BC15598006C4739 /* ScanPasses-iPad-FixedHeight-unflippable-low.mp4 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		11C07A082BC15598006C4739 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				11C07A092BC15598006C4739 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* ReactNativeSwiftUIBridge */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,12 +262,18 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				11C079EF2BC15598006C4739 /* GuidedCapture */,
+				11C079EB2BC13536006C4739 /* SimpleViewProxy.view.swift */,
+				11C079E72BC02EF6006C4739 /* SimpleViewManager.swift */,
+				11C079E52BC021BA006C4739 /* SimpleViewManager.m */,
+				11C079E32BC00FB3006C4739 /* SimpleViewSWUI.swift */,
 				13B07FAE1A68108700A75B9A /* ReactNativeSwiftUIBridge */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ReactNativeSwiftUIBridgeTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				11C079E22BC00FB3006C4739 /* ReactNativeSwiftUIBridge-Bridging-Header.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -206,7 +358,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1520;
 					};
 				};
 			};
@@ -241,8 +393,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11C07A2D2BC15598006C4739 /* ScanPasses-iPad-FixedHeight-1.mp4 in Resources */,
+				11C07A252BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-unflippable-low.mp4 in Resources */,
+				11C07A282BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-2.mp4 in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				11C07A292BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-3.mp4 in Resources */,
+				11C07A2B2BC15598006C4739 /* ScanPasses-iPad-FixedHeight-2.mp4 in Resources */,
+				11C07A272BC15598006C4739 /* ScanPasses-iPad-FixedHeight-unflippable-high.mp4 in Resources */,
+				11C07A262BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-1.mp4 in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				11C07A312BC15598006C4739 /* Preview Assets.xcassets in Resources */,
+				11C07A2E2BC15598006C4739 /* ScanPasses-iPad-FixedHeight-unflippable-low.mp4 in Resources */,
+				11C07A2A2BC15598006C4739 /* ScanPasses-iPhone-FixedHeight-unflippable-high.mp4 in Resources */,
+				11C07A2C2BC15598006C4739 /* ScanPasses-iPad-FixedHeight-3.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,8 +555,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11C07A3C2BC15598006C4739 /* OnboardingView.swift in Sources */,
+				11C07A1E2BC15598006C4739 /* TutorialVideoView.swift in Sources */,
+				11C07A202BC15598006C4739 /* OnboardingTutorialView+LocalizedString.swift in Sources */,
+				11C07A3B2BC15598006C4739 /* CapturePrimaryView.swift in Sources */,
+				11C07A1D2BC15598006C4739 /* GuidedCaptureSampleApp.swift in Sources */,
+				11C07A222BC15598006C4739 /* OnboardingButtonView+LocalizedString.swift in Sources */,
+				11C079E82BC02EF6006C4739 /* SimpleViewManager.swift in Sources */,
+				11C07A372BC15598006C4739 /* FeedbackView.swift in Sources */,
+				11C07A322BC15598006C4739 /* AppDataModel+State.swift in Sources */,
+				11C07A412BC15598006C4739 /* OnboardingTutorialView.swift in Sources */,
+				11C07A382BC15598006C4739 /* ReconstructionPrimaryView.swift in Sources */,
+				11C07A332BC15598006C4739 /* UntilProcessingCompleteFilter.swift in Sources */,
+				11C079EC2BC13536006C4739 /* SimpleViewProxy.view.swift in Sources */,
+				11C07A1F2BC15598006C4739 /* OnboardingStateMachine.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				11C07A342BC15598006C4739 /* OnboardingButtonView.swift in Sources */,
+				11C07A1C2BC15598006C4739 /* FeedbackMessages.swift in Sources */,
+				11C07A392BC15598006C4739 /* AppDataModel.swift in Sources */,
+				11C07A352BC15598006C4739 /* CaptureOverlayView+LocalizedString.swift in Sources */,
+				11C07A3E2BC15598006C4739 /* CaptureFolderManager.swift in Sources */,
+				11C07A302BC15598006C4739 /* CaptureOverlayView.swift in Sources */,
+				11C079E62BC021BA006C4739 /* SimpleViewManager.m in Sources */,
+				11C07A3F2BC15598006C4739 /* ModelView.swift in Sources */,
+				11C07A212BC15598006C4739 /* AppDataModel+Orbit.swift in Sources */,
+				11C07A1B2BC15598006C4739 /* TimedMessageList.swift in Sources */,
+				11C07A1A2BC15598006C4739 /* ShotFileInfo.swift in Sources */,
+				11C07A3A2BC15598006C4739 /* CaptureOverlayView+Buttons.swift in Sources */,
+				11C07A362BC15598006C4739 /* PlayerView.swift in Sources */,
+				11C07A3D2BC15598006C4739 /* ContentView.swift in Sources */,
+				11C07A232BC15598006C4739 /* HelpPageView.swift in Sources */,
+				11C079E42BC00FB3006C4739 /* SimpleViewSWUI.swift in Sources */,
+				11C07A242BC15598006C4739 /* ProgressBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +606,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-ReactNativeSwiftUIBridge-ReactNativeSwiftUIBridgeTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -439,6 +634,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-ReactNativeSwiftUIBridge-ReactNativeSwiftUIBridgeTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = ReactNativeSwiftUIBridgeTests/Info.plist;
@@ -466,8 +662,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 522TY695G3;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ReactNativeSwiftUIBridge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,6 +678,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ReactNativeSwiftUIBridge;
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactNativeSwiftUIBridge-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -493,7 +692,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 522TY695G3;
 				INFOPLIST_FILE = ReactNativeSwiftUIBridge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -506,6 +707,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ReactNativeSwiftUIBridge;
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactNativeSwiftUIBridge-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -560,7 +762,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -580,10 +782,7 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -632,7 +831,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -651,10 +850,7 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
