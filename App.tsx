@@ -6,12 +6,18 @@
  */
 
 import React, {useState} from 'react';
-import {Button, StyleSheet, Text, View} from 'react-native';
+import {Button, StyleSheet, View} from 'react-native';
+import Scamon from './src/components/Scamon/Scamon';
+import ScanList from './src/components/ScanList/ScanList';
 import SimpleView from './src/components/SimpleView';
 
 function App(): React.JSX.Element {
   const [isSimpleView, setIsSimpleView] = useState(false);
   const [viewKey, setViewKey] = useState(Math.random().toString());
+  const [selectedModelPath, setSelectedModelPath] = useState<string | null>(
+    null,
+  );
+
   return (
     <>
       {isSimpleView ? (
@@ -22,15 +28,19 @@ function App(): React.JSX.Element {
             setViewKey(Math.random().toString());
           }}
         />
+      ) : selectedModelPath ? (
+        <Scamon modelPath={selectedModelPath} />
       ) : (
         <View style={styles.centeredView}>
-          <Text>This is React View.</Text>
-          <Button
-            title="Toggle View"
-            onPress={() => {
-              setIsSimpleView(!isSimpleView);
-            }}
-          />
+          <ScanList onModelSelect={setSelectedModelPath} />
+          <View style={styles.textAndButton}>
+            <Button
+              title="Scan"
+              onPress={() => {
+                setIsSimpleView(!isSimpleView);
+              }}
+            />
+          </View>
         </View>
       )}
     </>
@@ -40,8 +50,11 @@ function App(): React.JSX.Element {
 const styles = StyleSheet.create({
   centeredView: {
     flex: 1,
-    justifyContent: 'center',
+    justifyContent: 'flex-end',
     alignItems: 'center',
+  },
+  textAndButton: {
+    marginBottom: 50,
   },
 });
 
