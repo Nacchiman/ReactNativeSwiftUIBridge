@@ -28,7 +28,7 @@ const ScanList = ({onModelSelect}: ScanListProps) => {
       }
 
       setFolders(foldersWithModels);
-      console.log('Directory content:', foldersWithModels);
+      console.warn('Directory content:', foldersWithModels);
     } catch (error) {
       console.error('Failed to read directory', error);
     }
